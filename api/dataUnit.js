@@ -11,7 +11,9 @@ module.exports = {
         set: (newOnlineNumber) => {
             const data = require(dataPath);
             data.onlineNumber = newOnlineNumber;
-            fs.writeFileSync(dataPath, JSON.stringify(data))
+            fs.writeFileSync(dataPath, JSON.stringify(data), {
+                encoding: 'utf-8', mode: '0666'
+            })
         }
     }
 }
