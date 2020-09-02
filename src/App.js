@@ -16,8 +16,8 @@ function App() {
     <main> 
         <h2>一个专注于学习的计时器</h2>
         <div style={{color:"#ccc"}}>下载地址</div>
-        <p>安卓v1.0：<a href={"https://menhechuanghb.com/zikaoquanv1.0.apk"}>点击下载</a></p>
-        <p>苹果v1.0：<a>开发中...</a></p>
+        <p>安卓v1.0.1：<a href={"https://menhechuanghb.com/zikaoquan.apk"}>点击下载</a></p>
+        <p>苹果v1.0.0：<a>开发中...</a></p>
     </main>
   );
 }
